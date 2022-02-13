@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Rotation\build\CMakeFiles\857894dc643c02f3a731e91b137e07ec\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9CDD6AF6-F023-313D-ABB5-3C7D5138CA9F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

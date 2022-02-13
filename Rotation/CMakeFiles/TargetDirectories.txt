@@ -1,0 +1,4 @@
+/home/bdb/master/M1S2/project/starter_main_2/CMakeFiles/bin.dir
+/home/bdb/master/M1S2/project/starter_main_2/CMakeFiles/rotation.dir
+/home/bdb/master/M1S2/project/starter_main_2/CMakeFiles/edit_cache.dir
+/home/bdb/master/M1S2/project/starter_main_2/CMakeFiles/rebuild_cache.dir

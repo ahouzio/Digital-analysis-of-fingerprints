@@ -1,0 +1,10 @@
+^C:\USERS\AHOUZ\ONEDRIVE\BUREAU\MODELING_PROJECT\BUILD\CMAKEFILES\66CE6FFCD78151347B103ADC0F012828\GENERATE.STAMP.RULE
+setlocal
+C:\Windows\bin\cmake.exe -SC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization -BC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build/optimization.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

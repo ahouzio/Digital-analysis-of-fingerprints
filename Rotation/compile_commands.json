@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/bdb/master/M1S2/project/starter_main_2",
+  "command": "/usr/bin/c++  -I/home/bdb/master/M1S2/project/starter_main_2/./include -isystem /usr/include/opencv4  -o CMakeFiles/bin.dir/src/rotation.cpp.o -c /home/bdb/master/M1S2/project/starter_main_2/src/rotation.cpp",
+  "file": "/home/bdb/master/M1S2/project/starter_main_2/src/rotation.cpp"
+},
+{
+  "directory": "/home/bdb/master/M1S2/project/starter_main_2",
+  "command": "/usr/bin/c++  -I/home/bdb/master/M1S2/project/starter_main_2/./include -isystem /usr/include/opencv4  -o CMakeFiles/bin.dir/src/warp.cpp.o -c /home/bdb/master/M1S2/project/starter_main_2/src/warp.cpp",
+  "file": "/home/bdb/master/M1S2/project/starter_main_2/src/warp.cpp"
+},
+{
+  "directory": "/home/bdb/master/M1S2/project/starter_main_2",
+  "command": "/usr/bin/c++  -I/home/bdb/master/M1S2/project/starter_main_2/./include -isystem /usr/include/opencv4  -o CMakeFiles/bin.dir/src/main.cpp.o -c /home/bdb/master/M1S2/project/starter_main_2/src/main.cpp",
+  "file": "/home/bdb/master/M1S2/project/starter_main_2/src/main.cpp"
+},
+{
+  "directory": "/home/bdb/master/M1S2/project/starter_main_2",
+  "command": "/usr/bin/c++  -I/home/bdb/master/M1S2/project/starter_main_2/./include -isystem /usr/include/opencv4  -o CMakeFiles/rotation.dir/src/rotation.cpp.o -c /home/bdb/master/M1S2/project/starter_main_2/src/rotation.cpp",
+  "file": "/home/bdb/master/M1S2/project/starter_main_2/src/rotation.cpp"
+},
+{
+  "directory": "/home/bdb/master/M1S2/project/starter_main_2",
+  "command": "/usr/bin/c++  -I/home/bdb/master/M1S2/project/starter_main_2/./include -isystem /usr/include/opencv4  -o CMakeFiles/rotation.dir/src/main_starter.cpp.o -c /home/bdb/master/M1S2/project/starter_main_2/src/main_starter.cpp",
+  "file": "/home/bdb/master/M1S2/project/starter_main_2/src/main_starter.cpp"
+}
+]

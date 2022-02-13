@@ -1,0 +1,4 @@
+C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Rotation/build/CMakeFiles/bin.dir
+C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Rotation/build/CMakeFiles/rotation.dir
+C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Rotation/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Rotation/build/CMakeFiles/ZERO_CHECK.dir

@@ -1,0 +1,10 @@
+^C:\USERS\AHOUZ\ONEDRIVE\BUREAU\MODELING_PROJECT\SIMULATION\BUILD\CMAKEFILES\BBEEF96699708DB9EED59A86555DFEA6\GENERATE.STAMP.RULE
+setlocal
+C:\Windows\bin\cmake.exe -SC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Simulation -BC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Simulation/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Simulation/build/simulation.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

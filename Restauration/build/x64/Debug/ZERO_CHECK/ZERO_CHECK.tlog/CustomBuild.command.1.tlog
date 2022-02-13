@@ -1,0 +1,10 @@
+^C:\USERS\AHOUZ\ONEDRIVE\BUREAU\MODELING_PROJECT\RESTAURATION\BUILD\CMAKEFILES\5B8122B592B60B2A9167062169FD360D\GENERATE.STAMP.RULE
+setlocal
+C:\Windows\bin\cmake.exe -SC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Restauration -BC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Restauration/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Restauration/build/restauration.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

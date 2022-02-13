@@ -1,0 +1,10 @@
+^C:\USERS\AHOUZ\ONEDRIVE\BUREAU\MODELING_PROJECT\ROTATION\BUILD\CMAKEFILES\857894DC643C02F3A731E91B137E07EC\GENERATE.STAMP.RULE
+setlocal
+C:\Windows\bin\cmake.exe -SC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Rotation -BC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Rotation/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Rotation/build/starter-main2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\build\CMakeFiles\f13af5c3b791aacfa6686bb7034a29ef\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{6C8F6952-D452-36BD-B08B-9D939C33A972}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

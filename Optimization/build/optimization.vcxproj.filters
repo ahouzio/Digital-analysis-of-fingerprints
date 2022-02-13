@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\src\main3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\src\img3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\src\loss3.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\include\img3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\include\loss3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{D92F95A0-5C78-36C5-932D-9DDF3F8E1B29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C936A6FF-1988-3643-AA2B-A26C687C3C9A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

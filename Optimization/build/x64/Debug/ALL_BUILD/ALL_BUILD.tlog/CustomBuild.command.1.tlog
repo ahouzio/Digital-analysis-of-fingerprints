@@ -1,0 +1,10 @@
+^C:\USERS\AHOUZ\ONEDRIVE\BUREAU\MODELING_PROJECT\OPTIMIZATION\CMAKELISTS.TXT
+setlocal
+C:\Windows\bin\cmake.exe -SC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization -BC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization/build --check-stamp-file C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CFDB4E1B-EFF2-3D10-8A44-5606B6D8D722}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\.\include;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\.\include;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\.\include;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\.\include;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\Optimization\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Windows\bin\cmake.exe -SC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization -BC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build --check-stamp-file C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeCCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeSystem.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Windows\share\cmake-3.22\Modules\CPack.cmake;C:\Windows\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Windows\share\cmake-3.22\Modules\CTest.cmake;C:\Windows\share\cmake-3.22\Modules\CTestTargets.cmake;C:\Windows\share\cmake-3.22\Modules\CTestUseLaunchers.cmake;C:\Windows\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Windows\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Windows\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Windows\share\cmake-3.22\Modules\DartConfiguration.tcl.in;C:\Windows\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Windows\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Windows\share\cmake-3.22\Modules\FindThreads.cmake;C:\Windows\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Windows\share\cmake-3.22\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Windows\bin\cmake.exe -SC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization -BC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build --check-stamp-file C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeCCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeSystem.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Windows\share\cmake-3.22\Modules\CPack.cmake;C:\Windows\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Windows\share\cmake-3.22\Modules\CTest.cmake;C:\Windows\share\cmake-3.22\Modules\CTestTargets.cmake;C:\Windows\share\cmake-3.22\Modules\CTestUseLaunchers.cmake;C:\Windows\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Windows\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Windows\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Windows\share\cmake-3.22\Modules\DartConfiguration.tcl.in;C:\Windows\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Windows\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Windows\share\cmake-3.22\Modules\FindThreads.cmake;C:\Windows\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Windows\share\cmake-3.22\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Windows\bin\cmake.exe -SC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization -BC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build --check-stamp-file C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeCCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeSystem.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Windows\share\cmake-3.22\Modules\CPack.cmake;C:\Windows\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Windows\share\cmake-3.22\Modules\CTest.cmake;C:\Windows\share\cmake-3.22\Modules\CTestTargets.cmake;C:\Windows\share\cmake-3.22\Modules\CTestUseLaunchers.cmake;C:\Windows\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Windows\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Windows\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Windows\share\cmake-3.22\Modules\DartConfiguration.tcl.in;C:\Windows\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Windows\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Windows\share\cmake-3.22\Modules\FindThreads.cmake;C:\Windows\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Windows\share\cmake-3.22\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Windows\bin\cmake.exe -SC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/Optimization -BC:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build --check-stamp-file C:/Users/Ahouz/OneDrive/Bureau/Modeling_project/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeCCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeCXXCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeRCCompiler.cmake;C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\3.22.1\CMakeSystem.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVConfig-version.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVConfig.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules-debug.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules-release.cmake;C:\Users\Ahouz\OneDrive\Bureau\opencv\build\x64\vc15\lib\OpenCVModules.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCXXInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeCommonLanguageInclude.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeGenericSystem.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeInitializeConfigs.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeLanguageInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeRCInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeSystemSpecificInformation.cmake;C:\Windows\share\cmake-3.22\Modules\CMakeSystemSpecificInitialize.cmake;C:\Windows\share\cmake-3.22\Modules\CPack.cmake;C:\Windows\share\cmake-3.22\Modules\CPackComponent.cmake;C:\Windows\share\cmake-3.22\Modules\CTest.cmake;C:\Windows\share\cmake-3.22\Modules\CTestTargets.cmake;C:\Windows\share\cmake-3.22\Modules\CTestUseLaunchers.cmake;C:\Windows\share\cmake-3.22\Modules\CheckCSourceCompiles.cmake;C:\Windows\share\cmake-3.22\Modules\CheckIncludeFile.cmake;C:\Windows\share\cmake-3.22\Modules\CheckLibraryExists.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\MSVC-C.cmake;C:\Windows\share\cmake-3.22\Modules\Compiler\MSVC-CXX.cmake;C:\Windows\share\cmake-3.22\Modules\DartConfiguration.tcl.in;C:\Windows\share\cmake-3.22\Modules\FindPackageHandleStandardArgs.cmake;C:\Windows\share\cmake-3.22\Modules\FindPackageMessage.cmake;C:\Windows\share\cmake-3.22\Modules\FindThreads.cmake;C:\Windows\share\cmake-3.22\Modules\Internal\CheckSourceCompiles.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC-C.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows-MSVC.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\Windows.cmake;C:\Windows\share\cmake-3.22\Modules\Platform\WindowsPaths.cmake;C:\Windows\share\cmake-3.22\Templates\CPackConfig.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\ZERO_CHECK.vcxproj">
+      <Project>{A2CB98C6-A619-3757-BC0F-5EB78D58EFB4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Ahouz\OneDrive\Bureau\Modeling_project\build\optimization.vcxproj">
+      <Project>{80BAD51D-74DF-303B-BACD-E0A0BC20E184}</Project>
+      <Name>optimization</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
